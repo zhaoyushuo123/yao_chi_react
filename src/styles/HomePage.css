@@ -33,13 +33,14 @@ body {
     align-items: center;
     justify-content: center;
     padding: 30px 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     height: 100%;
 }
 
 .module-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    background-color: #e3f2fd; /* 悬停时显示浅蓝色背景 */
 }
 
 .module-icon {
